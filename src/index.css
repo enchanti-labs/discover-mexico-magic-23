@@ -1,0 +1,266 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Magic Ways Design System - Mexican Tourism Theme */
+    --background: 0 0% 100%;
+    --foreground: 12 6.5% 15.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 12 6.5% 15.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 12 6.5% 15.1%;
+
+    /* Mexican Red Color Palette */
+    --primary: 0 72% 51%; /* Mexican Red #DC2626 */
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 0 72% 60%;
+    --primary-dark: 0 72% 42%;
+
+    --secondary: 33 100% 96%;
+    --secondary-foreground: 12 6.5% 15.1%;
+
+    --muted: 33 12% 96%;
+    --muted-foreground: 25 5.3% 44.7%;
+
+    --accent: 33 100% 96%;
+    --accent-foreground: 12 6.5% 15.1%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 33 12% 91%;
+    --input: 33 12% 91%;
+    --ring: 0 72% 51%;
+
+    /* Mexican Culture Inspired Colors */
+    --gold: 45 93% 58%;
+    --gold-foreground: 12 6.5% 15.1%;
+    
+    --emerald: 158 64% 52%;
+    --emerald-foreground: 0 0% 100%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 72% 51%) 0%, hsl(15 87% 56%) 100%);
+    --gradient-mexican: linear-gradient(135deg, hsl(0 72% 51%) 0%, hsl(158 64% 52%) 50%, hsl(45 93% 58%) 100%);
+    --gradient-overlay: linear-gradient(135deg, rgba(220, 38, 38, 0.9) 0%, rgba(0, 0, 0, 0.6) 100%);
+    
+    /* Shadows */
+    --shadow-mexican: 0 10px 30px -5px hsl(0 72% 51% / 0.3);
+    --shadow-elegant: 0 4px 20px -2px hsl(0 0% 0% / 0.1);
+    --shadow-card: 0 2px 8px -1px hsl(0 0% 0% / 0.1);
+
+    /* Typography */
+    --font-heading: 'Inter', system-ui, sans-serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode colors for Magic Ways */
+    --background: 12 6.5% 15.1%;
+    --foreground: 0 0% 98%;
+
+    --card: 12 6.5% 15.1%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 12 6.5% 15.1%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Keep primary colors consistent in dark mode */
+    --primary: 0 72% 55%; /* Slightly brighter red for dark mode */
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 0 72% 65%;
+    --primary-dark: 0 72% 45%;
+
+    --secondary: 12 6.5% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 12 6.5% 20%;
+    --muted-foreground: 240 3.8% 60%;
+
+    --accent: 12 6.5% 20%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 12 6.5% 25%;
+    --input: 12 6.5% 25%;
+    --ring: 0 72% 55%;
+
+    /* Mexican colors in dark mode */
+    --gold: 45 93% 62%;
+    --gold-foreground: 12 6.5% 15.1%;
+    
+    --emerald: 158 64% 58%;
+    --emerald-foreground: 12 6.5% 15.1%;
+
+    /* Sidebar colors for dark mode */
+    --sidebar-background: 12 6.5% 12%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 0 72% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 12 6.5% 18%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 12 6.5% 25%;
+    --sidebar-ring: 0 72% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom animations and utilities */
+@layer utilities {
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-mexican {
+    background: var(--gradient-mexican);
+  }
+  
+  .gradient-overlay {
+    background: var(--gradient-overlay);
+  }
+
+  .shadow-mexican {
+    box-shadow: var(--shadow-mexican);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+
+  /* Hero text animation */
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .animate-fade-in-up-delay {
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.3s forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  /* Hover effects */
+  .hover-lift {
+    transition: var(--transition-smooth);
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-mexican);
+  }
+
+  /* Scroll reveal animation */
+  .reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .reveal-on-scroll.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse-mexican {
+  0%, 100% {
+    box-shadow: 0 0 0 0 hsl(0 72% 51% / 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 20px hsl(0 72% 51% / 0);
+  }
+}
