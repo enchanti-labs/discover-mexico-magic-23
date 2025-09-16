@@ -18,13 +18,6 @@ const HeroSection = () => {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="text-center lg:text-left">
-          <div className="flex justify-center lg:justify-start mb-6">
-            <img
-              src={logoWhiteWithText}
-              alt="Magic Ways"
-              className="h-16 md:h-20 w-auto animate-fade-in-up"
-            />
-          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 animate-fade-in-up">
             Conecta con la Magia de México
           </h1>
@@ -65,15 +58,22 @@ const HeroSection = () => {
 
         {/* Right Content - App Mockup */}
         <div className="flex justify-center lg:justify-end">
-          <div className="animate-float">
-            <img
-              src={appMockup}
-              alt="Magic Ways App Mockup"
-              className="w-60 md:w-72 lg:w-[28rem] xl:w-[32rem] h-auto max-w-full drop-shadow-2xl"
-            />
-          </div>
+          <img
+            src={appMockup}
+            alt="Magic Ways App Mockup"
+            className="w-60 md:w-72 lg:w-[28rem] xl:w-[32rem] h-auto max-w-full drop-shadow-2xl"
+          />
         </div>
       </div>
+    </div>
+
+    {/* Logo at the bottom center */}
+    <div className="absolute bottom-6 inset-x-0 flex justify-center z-10">
+      <img
+        src={logoWhiteWithText}
+        alt="Magic Ways"
+        className="h-16 md:h-20 w-auto animate-fade-in-up"
+      />
     </div>
   </section>;
 };
