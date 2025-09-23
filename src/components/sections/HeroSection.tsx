@@ -32,7 +32,7 @@ const HeroSection = () => {
               App Store
             </Button>
             <Button size="lg" variant="outline" className="border-2 border-white hover:bg-white font-semibold px-8 py-4 rounded-xl hover:scale-105 transition-bounce text-zinc-600">
-              <Play size={20} className="mr-2" />
+              <Download size={20} className="mr-2" />
               Google Play
             </Button>
           </div>
