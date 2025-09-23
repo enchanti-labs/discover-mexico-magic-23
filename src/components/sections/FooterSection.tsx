@@ -143,23 +143,21 @@ const FooterSection = () => {
 
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-border">
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-            <div className="flex flex-col items-center md:items-start space-y-2">
-              <div className="text-sm text-muted-foreground">
-                © {currentYear} Magic Ways. Todos los derechos reservados.
-              </div>
-              <div className="flex items-center space-x-2 text-xs">
-                <span className="text-muted-foreground">Desarrollado por</span>
-                <a 
-                  href="https://enchant-labs-tech-showcase.lovable.app/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="font-semibold text-primary hover:text-primary/80 transition-colors duration-200 flex items-center space-x-1"
-                >
-                  <span>Enchanti Labs</span>
-                  <div className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse"></div>
-                </a>
-              </div>
+          <div className="flex flex-col items-center space-y-4">
+            <div className="text-sm text-muted-foreground text-center">
+              © {currentYear} Magic Ways. Todos los derechos reservados.
+            </div>
+            <div className="flex items-center space-x-3 text-sm">
+              <span className="text-muted-foreground">Desarrollado por</span>
+              <a 
+                href="https://enchant-labs-tech-showcase.lovable.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="font-bold text-primary hover:text-primary/80 transition-colors duration-200 flex items-center space-x-2 text-base"
+              >
+                <span>Enchanti Labs</span>
+                <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+              </a>
             </div>
             <div className="flex items-center space-x-6 text-xs text-muted-foreground">
               <div className="flex items-center space-x-2">
