@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Download, Play, ArrowRight } from 'lucide-react';
 import ctaBackground from '@/assets/cta-background.jpg';
-import phoneInHand from '@/assets/phone-in-hand.png';
+import phoneInHand from '@/assets/app-screens-multiple.png';
 const CTASection = () => {
   return (
     <section className="relative py-20 overflow-hidden">
