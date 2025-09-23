@@ -103,8 +103,8 @@ const FooterSection = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <Mail size={16} className="text-primary flex-shrink-0" />
-                <a href="mailto:hola@magic-ways.com" className="hover:text-primary transition-colors">
-                  hola@magic-ways.com
+                <a href="mailto:hola@magicways.mx" className="hover:text-primary transition-colors">
+                  hola@magicways.mx
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">
@@ -148,15 +148,6 @@ const FooterSection = () => {
               © {currentYear} Magic Ways. Todos los derechos reservados.
             </div>
             <div className="flex items-center space-x-6 text-xs text-muted-foreground">
-              <span>Hecho con ❤️ en México</span>
-              <a 
-                href="https://enchant-labs-tech-showcase.lovable.app/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
-              >
-                Desarrollado por Enchanti Labs
-              </a>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-emerald rounded-full"></div>
                 <span>Sistema activo</span>
