@@ -143,16 +143,22 @@ const FooterSection = () => {
 
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-border">
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+          <div className="flex flex-col items-center space-y-4">
             <div className="text-sm text-muted-foreground">
               © {currentYear} Magic Ways. Todos los derechos reservados.
             </div>
-            <div className="flex items-center space-x-6 text-xs text-muted-foreground">
-              <span>Hecho con ❤️ en México</span>
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-emerald rounded-full"></div>
-                <span>Sistema activo</span>
-              </div>
+            
+            {/* Enchanti Labs Link - Large and Centered */}
+            <div className="flex flex-col items-center space-y-2">
+              <span className="text-xs text-muted-foreground">Desarrollado por</span>
+              <a
+                href="https://enchant-labs-tech-showcase.lovable.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg font-semibold text-primary hover:text-primary/80 transition-all duration-300 hover:scale-105 text-center"
+              >
+                Enchanti Labs
+              </a>
             </div>
           </div>
         </div>
