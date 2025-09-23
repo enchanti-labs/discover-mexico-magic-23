@@ -27,11 +27,7 @@ const CTASection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-white text-black hover:bg-white/90">
                 <Download className="w-5 h-5 mr-2" />
-                Descargar App
-              </Button>
-              <Button size="lg" variant="outline" className="border-white hover:bg-white hover:text-black">
-                <Play className="w-5 h-5 mr-2" />
-                Descargar App
+                Contáctanos
               </Button>
             </div>
           </div>
