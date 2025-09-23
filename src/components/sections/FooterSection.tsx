@@ -103,8 +103,8 @@ const FooterSection = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <Mail size={16} className="text-primary flex-shrink-0" />
-                <a href="mailto:hola@magicways.mx" className="hover:text-primary transition-colors">
-                  hola@magicways.mx
+                <a href="mailto:hola@magic-ways.com" className="hover:text-primary transition-colors">
+                  hola@magic-ways.com
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">
@@ -143,23 +143,12 @@ const FooterSection = () => {
 
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-border">
-          <div className="flex flex-col items-center space-y-4">
-            <div className="text-sm text-muted-foreground text-center">
+          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            <div className="text-sm text-muted-foreground">
               © {currentYear} Magic Ways. Todos los derechos reservados.
             </div>
-            <div className="flex items-center space-x-3 text-sm">
-              <span className="text-muted-foreground">Desarrollado por</span>
-              <a 
-                href="https://enchant-labs-tech-showcase.lovable.app/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="font-bold text-primary hover:text-primary/80 transition-colors duration-200 flex items-center space-x-2 text-base"
-              >
-                <span>Enchanti Labs</span>
-                <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-              </a>
-            </div>
             <div className="flex items-center space-x-6 text-xs text-muted-foreground">
+              <span>Hecho con ❤️ en México</span>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-emerald rounded-full"></div>
                 <span>Sistema activo</span>

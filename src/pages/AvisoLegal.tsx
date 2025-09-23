@@ -49,13 +49,13 @@ const AvisoLegal = () => {
                   <strong>Domicilio:</strong> Ciudad de México, México
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Email:</strong> legal@magic-ways.com
+                  <strong>Email:</strong> legal@magicways.mx
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-2">
                   <strong>Teléfono:</strong> +52 55 1234 5678
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong>Sitio web:</strong> www.magic-ways.com
+                  <strong>Sitio web:</strong> www.magicways.mx
                 </p>
               </div>
             </section>
