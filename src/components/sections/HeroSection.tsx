@@ -14,10 +14,10 @@ const HeroSection = () => {
     <div className="absolute inset-0 gradient-overlay opacity-70" />
 
     {/* Content */}
-    <div className="container relative z-10 mx-auto px-4">
+    <div className="container relative z-10 mx-auto px-4 pt-20 md:pt-0">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
-        <div className="text-center lg:text-left">
+        <div className="text-center lg:text-left mb-20 lg:mb-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 animate-fade-in-up">
             Conecta con la Magia de México
           </h1>
