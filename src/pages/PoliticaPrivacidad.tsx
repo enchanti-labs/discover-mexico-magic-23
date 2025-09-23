@@ -145,7 +145,7 @@ const PoliticaPrivacidad = () => {
                 Para ejercer sus derechos o si tiene preguntas sobre esta política, puede contactarnos en:
               </p>
               <div className="mt-3 text-gray-700">
-                <p>Email: <a href="mailto:privacidad@magicways.mx" className="text-primary hover:underline">privacidad@magicways.mx</a></p>
+                <p>Email: <a href="mailto:privacidad@magic-ways.com" className="text-primary hover:underline">privacidad@magic-ways.com</a></p>
                 <p>Teléfono: +52 55 1234 5678</p>
               </div>
             </section>

@@ -103,8 +103,8 @@ const TerminosCondiciones = () => {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Contacto</h2>
               <p className="text-gray-700 leading-relaxed">
                 Para cualquier consulta sobre estos términos, puede contactarnos en: 
-                <a href="mailto:legal@magicways.mx" className="text-primary hover:underline ml-1">
-                  legal@magicways.mx
+                <a href="mailto:legal@magic-ways.com" className="text-primary hover:underline ml-1">
+                  legal@magic-ways.com
                 </a>
               </p>
             </section>

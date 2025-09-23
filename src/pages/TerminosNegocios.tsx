@@ -107,8 +107,8 @@ const TerminosNegocios = () => {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Contacto para Negocios</h2>
               <p className="text-gray-700 leading-relaxed">
                 Para soporte comercial, contáctanos en: 
-                <a href="mailto:negocios@magicways.mx" className="text-primary hover:underline ml-1">
-                  negocios@magicways.mx
+                <a href="mailto:negocios@magic-ways.com" className="text-primary hover:underline ml-1">
+                  negocios@magic-ways.com
                 </a>
               </p>
             </section>

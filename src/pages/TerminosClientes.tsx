@@ -105,8 +105,8 @@ const TerminosClientes = () => {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Contacto</h2>
               <p className="text-gray-700 leading-relaxed">
                 Para soporte como cliente, contáctanos en: 
-                <a href="mailto:clientes@magicways.mx" className="text-primary hover:underline ml-1">
-                  clientes@magicways.mx
+                <a href="mailto:clientes@magic-ways.com" className="text-primary hover:underline ml-1">
+                  clientes@magic-ways.com
                 </a>
               </p>
             </section>

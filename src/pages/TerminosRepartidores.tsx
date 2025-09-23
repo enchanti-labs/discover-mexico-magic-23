@@ -110,8 +110,8 @@ const TerminosRepartidores = () => {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Contacto para Repartidores</h2>
               <p className="text-gray-700 leading-relaxed">
                 Para soporte operativo, contáctanos en: 
-                <a href="mailto:repartidores@magicways.mx" className="text-primary hover:underline ml-1">
-                  repartidores@magicways.mx
+                <a href="mailto:repartidores@magic-ways.com" className="text-primary hover:underline ml-1">
+                  repartidores@magic-ways.com
                 </a>
               </p>
             </section>

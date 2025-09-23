@@ -103,8 +103,8 @@ const FooterSection = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">
                 <Mail size={16} className="text-primary flex-shrink-0" />
-                <a href="mailto:hola@magicways.mx" className="hover:text-primary transition-colors">
-                  hola@magicways.mx
+                <a href="mailto:hola@magic-ways.com" className="hover:text-primary transition-colors">
+                  hola@magic-ways.com
                 </a>
               </div>
               <div className="flex items-center space-x-3 text-sm text-muted-foreground">

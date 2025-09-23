@@ -49,13 +49,13 @@ const AvisoLegal = () => {
                   <strong>Domicilio:</strong> Ciudad de México, México
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-2">
-                  <strong>Email:</strong> legal@magicways.mx
+                  <strong>Email:</strong> legal@magic-ways.com
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-2">
                   <strong>Teléfono:</strong> +52 55 1234 5678
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong>Sitio web:</strong> www.magicways.mx
+                  <strong>Sitio web:</strong> www.magic-ways.com
                 </p>
               </div>
             </section>
@@ -144,7 +144,7 @@ const AvisoLegal = () => {
                 Para cualquier consulta relacionada con este aviso legal, puede contactarnos a través de:
               </p>
               <div className="mt-3 text-gray-700">
-                <p>Email: <a href="mailto:legal@magicways.mx" className="text-primary hover:underline">legal@magicways.mx</a></p>
+                <p>Email: <a href="mailto:legal@magic-ways.com" className="text-primary hover:underline">legal@magic-ways.com</a></p>
                 <p>Teléfono: +52 55 1234 5678</p>
               </div>
             </section>
