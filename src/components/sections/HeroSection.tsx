@@ -61,7 +61,7 @@ const HeroSection = () => {
           <img
             src={appMockup}
             alt="Magic Ways App Mockup"
-            className="w-60 md:w-72 lg:w-[28rem] xl:w-[32rem] h-auto max-w-full drop-shadow-2xl"
+            className="w-60 md:w-72 lg:w-[28rem] xl:w-[32rem] h-auto max-w-full drop-shadow-2xl mt-8 lg:mt-0"
           />
         </div>
       </div>
