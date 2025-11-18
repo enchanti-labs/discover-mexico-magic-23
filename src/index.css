@@ -18,42 +18,42 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 12 6.5% 15.1%;
 
-    /* Mexican Red Color Palette */
-    --primary: 0 72% 51%; /* Mexican Red #DC2626 */
+    /* Golden Primary Color Palette */
+    --primary: 35 63% 54%; /* Golden #D4973F */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 0 72% 60%;
-    --primary-dark: 0 72% 42%;
+    --primary-light: 35 63% 64%;
+    --primary-dark: 35 63% 44%;
 
-    --secondary: 33 100% 96%;
-    --secondary-foreground: 12 6.5% 15.1%;
+    --secondary: 158 64% 52%; /* Emerald green for contrast */
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 33 12% 96%;
-    --muted-foreground: 25 5.3% 44.7%;
+    --muted: 35 20% 96%;
+    --muted-foreground: 35 10% 44%;
 
-    --accent: 33 100% 96%;
-    --accent-foreground: 12 6.5% 15.1%;
+    --accent: 158 30% 94%;
+    --accent-foreground: 158 64% 24%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 33 12% 91%;
-    --input: 33 12% 91%;
-    --ring: 0 72% 51%;
+    --border: 35 15% 91%;
+    --input: 35 15% 91%;
+    --ring: 35 63% 54%;
 
     /* Mexican Culture Inspired Colors */
-    --gold: 45 93% 58%;
-    --gold-foreground: 12 6.5% 15.1%;
+    --gold: 35 63% 54%;
+    --gold-foreground: 0 0% 100%;
     
     --emerald: 158 64% 52%;
     --emerald-foreground: 0 0% 100%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(0 72% 51%) 0%, hsl(15 87% 56%) 100%);
-    --gradient-mexican: linear-gradient(135deg, hsl(0 72% 51%) 0%, hsl(158 64% 52%) 50%, hsl(45 93% 58%) 100%);
-    --gradient-overlay: linear-gradient(135deg, rgba(220, 38, 38, 0.9) 0%, rgba(0, 0, 0, 0.6) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(35 63% 54%) 0%, hsl(35 70% 60%) 100%);
+    --gradient-mexican: linear-gradient(135deg, hsl(35 63% 54%) 0%, hsl(158 64% 52%) 50%, hsl(45 93% 58%) 100%);
+    --gradient-overlay: linear-gradient(135deg, rgba(212, 151, 63, 0.9) 0%, rgba(0, 0, 0, 0.6) 100%);
     
     /* Shadows */
-    --shadow-mexican: 0 10px 30px -5px hsl(0 72% 51% / 0.3);
+    --shadow-mexican: 0 10px 30px -5px hsl(35 63% 54% / 0.3);
     --shadow-elegant: 0 4px 20px -2px hsl(0 0% 0% / 0.1);
     --shadow-card: 0 2px 8px -1px hsl(0 0% 0% / 0.1);
 
@@ -96,30 +96,30 @@ All colors MUST be HSL.
     --popover-foreground: 0 0% 98%;
 
     /* Keep primary colors consistent in dark mode */
-    --primary: 0 72% 55%; /* Slightly brighter red for dark mode */
+    --primary: 35 63% 60%; /* Slightly brighter golden for dark mode */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 0 72% 65%;
-    --primary-dark: 0 72% 45%;
+    --primary-light: 35 63% 70%;
+    --primary-dark: 35 63% 50%;
 
-    --secondary: 12 6.5% 20%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 158 64% 48%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 12 6.5% 20%;
     --muted-foreground: 240 3.8% 60%;
 
-    --accent: 12 6.5% 20%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 158 30% 25%;
+    --accent-foreground: 158 64% 85%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 12 6.5% 25%;
     --input: 12 6.5% 25%;
-    --ring: 0 72% 55%;
+    --ring: 35 63% 60%;
 
     /* Mexican colors in dark mode */
-    --gold: 45 93% 62%;
-    --gold-foreground: 12 6.5% 15.1%;
+    --gold: 35 63% 60%;
+    --gold-foreground: 0 0% 100%;
     
     --emerald: 158 64% 58%;
     --emerald-foreground: 12 6.5% 15.1%;
@@ -127,12 +127,12 @@ All colors MUST be HSL.
     /* Sidebar colors for dark mode */
     --sidebar-background: 12 6.5% 12%;
     --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 0 72% 55%;
+    --sidebar-primary: 35 63% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 12 6.5% 18%;
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 12 6.5% 25%;
-    --sidebar-ring: 0 72% 55%;
+    --sidebar-ring: 35 63% 60%;
   }
 }
 
